@@ -1,3 +1,3 @@
-# This is an <h1> tag
+# Screenshot of Output
+
 ![GitHub Logo](/img/Screenshot.png)
-Format: ![Alt Text](url)
