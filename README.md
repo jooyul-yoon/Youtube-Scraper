@@ -1,3 +1,3 @@
-# Screenshot of Output
+# Output
 
 ![GitHub Logo](/img/Screenshot.png)
