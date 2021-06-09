@@ -1,6 +1,9 @@
 Title,"Web Scraping with Puppeteer, NodeJS & Shopify"
-Comments,"84 Comments"
 Date,"May 17, 2018"
+Views,"57,388 views"
+Likes,"1.2K"
+Dislikes,"5"
+Comments,"84 Comments"
 
 "Daniel Lindskog","3 years ago","This was great.
 I especially liked that you stumbled into the errors and explained what they were instead of following a perfect script.
@@ -19,8 +22,8 @@ Thanks for sharing"
 Been looking for a proper tutorial for a day, others a vague and surface level explanation"
 "Ben Pinto","2 years ago","How about storing the url of each buttons and running through each of them instead of returning to the main page and clicking those buttons?"
 "David Layec","6 months ago","Thank you for that! One question, any id how to select the item you want if it doesn't have a class or id?"
-"Ridho Maulana","2 years ago","LOVE IT!"
 "Tejendra Kumar","1 year ago","This is just awesome, could you make a video of how to use async/await in a chrome extension?"
+"Ridho Maulana","2 years ago","LOVE IT!"
 "Félix Mariotto","1 year ago","Hey great tutorial, very clear. I love the parts when it doesn't work as expected and you show the debugging, so useful."
 "Andrei Georgescu","2 years ago","Great video, I learned a lot! I do have a question though, is there any way to send form data to a website with the "goto" method? or is there any way to do it at all with puppeteer?"
 "Pini Cheyni","1 year ago","Great video !
@@ -30,6 +33,3 @@ After completing the crawl, how do I print the results in an HTML document?"
 "Jaws8u","2 years ago","Great stuff!"
 "Oussama Cheta","1 year ago","thanks man , straight to the point , just earned my subscription..."
 "Manu","1 year ago","This is very helpful. Thanks a lot!"
-Views,"57,387 views"
-Likes,"1.2K"
-Dislikes,"5"

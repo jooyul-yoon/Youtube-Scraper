@@ -60,16 +60,17 @@ async function scrollToBottom(page) {
 }
 
 async function saveToCSV(info) {
-  await fs.writeFile("out.csv", `Title,"${info.title}"\n`, errorCheck);
-  await fs.appendFile("out.csv", `Date,"${info.date}"\n`, errorCheck);
-  await fs.appendFile("out.csv", `Views,"${info.viewCount}"\n`, errorCheck);
-  await fs.appendFile("out.csv", `Likes,"${info.likeCount}"\n`, errorCheck);
-  await fs.appendFile("out.csv", `Dislikes,"${info.dislikeCount}"\n`, errorCheck);
-  await fs.appendFile("out.csv", `Comments,"${info.commentCount}"\n`, errorCheck);
+  await fs.writeFile("out.csv", `Title,"${info.title}"\n`, errorCheck);await new Promise(r => setTimeout(r, 1000));
+  await fs.appendFile("out.csv", `Date,"${info.date}"\n`, errorCheck);await new Promise(r => setTimeout(r, 1000));
+  await fs.appendFile("out.csv", `Views,"${info.viewCount}"\n`, errorCheck);await new Promise(r => setTimeout(r, 1000));
+  await fs.appendFile("out.csv", `Likes,"${info.likeCount}"\n`, errorCheck);await new Promise(r => setTimeout(r, 1000));
+  await fs.appendFile("out.csv", `Dislikes,"${info.dislikeCount}"\n`, errorCheck);await new Promise(r => setTimeout(r, 1000));
+  await fs.appendFile("out.csv", `Comments,"${info.commentCount}"\n`, errorCheck);await new Promise(r => setTimeout(r, 1000));
   await fs.appendFile("out.csv", `\n`, errorCheck);
   for (let i = 0; i < info.comment.length; i++) {
     let comment = info.comment[i];
     await fs.appendFile("out.csv", `"${comment.author}","${comment.publishedTime}","${comment.content}"\n`, errorCheck);
+    await new Promise(r => setTimeout(r, 500));
   }
 }
 
